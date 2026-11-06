@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Evaluableud3">
+
+        <!-- Activity principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Ejercicio 1: validar URL -->
+        <activity
+            android:name=".Ejercicio1Activity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Ejercicio 2: navegación retrasada -->
+        <activity
+            android:name=".Ejercicio2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio2DestinoActivity"
+            android:exported="false" />
+
+        <!-- Ejercicio 3: LinearLayout anidados -->
+        <activity
+            android:name=".Ejercicio3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio3AActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio3BActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio3CActivity"
+            android:exported="false" />
+
+        <!-- Ejercicio 4: FrameLayout -->
+        <activity
+            android:name=".Ejercicio4Activity"
+            android:exported="false" />
+
+        <!-- Ejercicio 5: calculadora -->
+        <activity
+            android:name=".Ejercicio5Activity"
+            android:exported="false" />
+
+        <!-- Ejercicio 6: perfil -->
+        <activity
+            android:name=".Ejercicio6Activity"
+            android:exported="false" />
+    </application>
+
+</manifest>
